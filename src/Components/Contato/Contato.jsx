@@ -10,7 +10,7 @@ const Contato = () => {
     async function handleSubmit(e){
         e.preventDefault()
         try{
-            await axios.post('https://portfolio-jompa.vercel.app/contato', {
+            await axios.post('https://portfolio-backend.vercel.app/contato/contato', {
                 nome,
                 email,
                 mensagem
