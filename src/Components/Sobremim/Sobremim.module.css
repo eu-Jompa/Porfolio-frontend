@@ -1,0 +1,63 @@
+.sobremim h2{
+    text-align: left;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0px 5px #030303;
+    
+    
+}
+.sobremim span{
+    color: #8A2BE2;
+
+}
+
+.sobremim p{
+    width: 700px;
+    text-align: left;
+    font-family: var(--font-secundaria);
+}
+
+.sobremim .habilidades{
+    font-size: 36px;
+    color: #8A2BE2;
+    text-align: left;
+    
+}
+.sobremim .habilidades p{
+    color: #fff;
+    text-shadow: 0px 5px #000;
+    font-weight: 600;
+    font-size: 32PX;
+    
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background-color: #121212; 
+    }
+    h1,h2, p, span,a {
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .sobremim .habilidades{
+        
+        text-align: center;
+        
+    }
+    .sobremim .habilidades p{
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+    }
+    .sobremim h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .sobremim span{
+        font-size: 20px;
+    }
+
+}

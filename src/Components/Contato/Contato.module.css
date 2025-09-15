@@ -1,0 +1,74 @@
+.container{
+    width: 700px;
+    height: 100%;
+    display: block;
+}
+.container h2{
+    font-size: 32px;
+}
+.container span{
+    color: var(--cor-destaque);
+}
+
+.container form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.container form input{
+    height: 40px;
+    padding-left: 10px;
+    border: 0px;
+    border-bottom: 2px solid var(--cor-destaque); 
+    border-right: 2px solid var(--cor-destaque);;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+}
+.container form input::placeholder{
+    font-size: 18px;
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+}
+.container form button{
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid var(--cor-destaque);
+    border-right: 2px solid var(--cor-destaque);
+    
+}
+.container form button:hover{
+    background-color: var(--cor-fundo-button);
+    border-top:  2px solid var(--cor-destaque);
+    border-left:  2px solid var(--cor-destaque);
+    transition: 2s;
+    
+}
+@media (max-width: 768px) {
+    .container{
+        width: 100vw;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    /* centraliza na vertical */
+        justify-content: center; 
+    }
+    .container h2{
+        font-size: 24px;
+    }   
+    .container span{
+        font-size: 20px;
+    }
+    .container form input{
+        font-size: 16px;
+    }
+    .container form button{
+        font-size: 16px;
+    }
+    .container form input::placeholder{
+        font-size: 16px;
+    }
+}
