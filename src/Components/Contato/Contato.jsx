@@ -10,7 +10,7 @@ const Contato = () => {
     async function handleSubmit(e){
         e.preventDefault()
         try{
-            await axios.post('https://porfolio-backend-mu0utu6sr-jotamaclanes-projects.vercel.app/contato', {
+            await axios.post('https://porfolio-backend-zeta.vercel.app/contato', {
                 nome,
                 email,
                 mensagem
