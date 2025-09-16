@@ -30,9 +30,9 @@ const Contato = () => {
             <h2>Entre em<span> Contato</span></h2>
             <hr></hr>
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder='Seu nome' value={setNome} onChange={(e)=>setNome(e.target.value)}/>
-                <input type="email" placeholder='Seu email' value={setEmail} onChange={(e)=>setEmail(e.target.value)}/>
-                <input type="text" placeholder='Escreva sua mensagem' value={setMensagem} onChange={(e)=>setMensagem(e.target.value)}/>
+                <input type="text" placeholder='Seu nome' value={nome} onChange={(e)=>setNome(e.target.value)}/>
+                <input type="email" placeholder='Seu email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
+                <input type="text" placeholder='Escreva sua mensagem' value={mensagem} onChange={(e)=>setMensagem(e.target.value)}/>
                 <button>Enviar</button>
             </form>
         </div>
